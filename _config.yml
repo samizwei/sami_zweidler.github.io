@@ -3,7 +3,7 @@ destination: ./_site
 includes:    ./_includes
 # baseurl: /msaveski
 url: "https://samizwei.github.io"
-baseurl: ""   # empty because it’s at the root
+baseurl: "/sami_zweidler.github.io"
 collections:
   projects:
     output: true
