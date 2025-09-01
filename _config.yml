@@ -1,8 +1,8 @@
 source:      .
 destination: ./_site
 includes:    ./_includes
-baseurl: /msaveski
-
+# baseurl: /msaveski
+baseurl: https://samizwei.github.io/sami_zweidler.github.io/
 collections:
   projects:
     output: true
