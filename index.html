@@ -6,7 +6,7 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  My research develops tools for analyzing <b>large-scale social data</b>, aiming to provide a better understanding of <b>social structure and behaviors</b> online while also impacting the <b>design of digital social systems</b>. 
+  <!-- My research develops tools for analyzing <b>large-scale social data</b>, aiming to provide a better understanding of <b>social structure and behaviors</b> online while also impacting the <b>design of digital social systems</b>.  -->
   <!-- My recent work has focused on social media algorithms
   [<a href="assets/publications/2024_feedwizard/paper.pdf" target="_blank">ArXiv'24</a>,
   <a href="assets/publications/2023_embedding_societal_values/paper.pdf" target="_blank">JOTS'23</a>],
@@ -27,12 +27,14 @@ title: Home
   </p>
 
   <p>
-  I'm an Assistant Professor in the Information School at the University of Washington.
+  I hold a Master’s degree in Physics with research interests in condensed matter theory and computational physics.
+  My work focuses on variational methods, including Variational Monte Carlo (VMC), Neural Quantum States (NQS), Density Matrix Renormalization Group (DMRG), and Density Functional Theory (DFT).
+  <!-- I'm an Assistant Professor in the Information School at the University of Washington.
   Before joining UW, I was a Postdoc at Stanford University, mentored by <a href="https://web.stanford.edu/~jugander/" target="_blank">Johan Ugander</a>.
   I received my Ph.D. from MIT in 2020 under the supervision of Deb Roy. 
   Prior to coming to MIT, I spent one year in Paris and one year in Barcelona doing a M.Sc. in Data mining and Knowledge Management. 
   I got my B.Sc. from Staffordshire University with First Class honors in Computer Science. 
-  Throughout my graduate studies, I spent several summers doing internships in industry, including Yahoo! Labs, Amazon, LinkedIn, and Facebook.
+  Throughout my graduate studies, I spent several summers doing internships in industry, including Yahoo! Labs, Amazon, LinkedIn, and Facebook. -->
   </p> 
 </div>
 
@@ -64,19 +66,19 @@ title: Home
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
-  <h4>Publications</h4>
+  <h4>Theses & Publications</h4>
 
-  <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
+  <!-- <p>Most recent publications on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/>
   <sup>‡</sup> indicates equal contribution.
-  </p>
+  </p> -->
 
   <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All</div></li>
+    <li><div class="button active" data-ref="#Theses">Theses</div></li>
+    <li><div class="button" data-ref="#papers">Publications</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane active" id="papers-selected">
+    <div class="tab-pane active" id="Theses">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         <div class="paper">
@@ -113,7 +115,7 @@ title: Home
       {% endfor %}
     </div>
 
-    <div class="tab-pane" id="papers-all">
+    <div class="tab-pane" id="papers">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
@@ -227,7 +229,7 @@ title: Home
 -->
 
 <!-- ========== RESUME ========== -->
-<div class="docs-section" id="resume">
+<!-- <div class="docs-section" id="resume">
   <h4>Vitæ</h4>
 
   <p>Full Resume in <a href={{ "/assets/cv/cv_web.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p>
@@ -249,7 +251,7 @@ title: Home
       </div>
     </li>
     {% endfor %}
-  </ul>
+  </ul> -->
 </div>
 
 <div class="docs-section" id="template">
